@@ -76,8 +76,38 @@
 		"gitDecoration.conflictingResourceForeground": "#e6cd69",
 		"gitDecoration.submoduleResourceForeground": "#356577",
 
-		// TODO: Terminal Colors
-		"editorOverviewRuler.bracketMatchForeground": "#d4d7d6"
+		// Overview Ruler
+		"editorOverviewRuler.bracketMatchForeground": "#d4d7d6",
+		"editorOverviewRuler.modifiedForeground": "#55b5db",
+		"editorOverviewRuler.addedForeground": "#9fca56",
+		"editorOverviewRuler.deletedForeground": "#cd3f45",
+		"editorOverviewRuler.errorForeground": "#cd3f45",
+		"editorOverviewRuler.warningForeground": "#e6cd69",
+		"editorOverviewRuler.infoForeground": "#55b5db",
+		"editorOverviewRuler.findMatchForeground": "#d4d7d6",
+		
+		// Terminal Colors
+		// From base16-seti-ui.minttyrc
+		"terminal.background": "#151718",
+		"terminal.foreground": "#d4d7d6",
+		"terminal.ansiBlack": "#151718",
+		"terminal.ansiBrightBlack": "#41535b",
+		"terminal.ansiBlue": "#55b5db",
+		"terminal.ansiBrightBlue": "#43a5d5",
+		"terminal.ansiCyan": "#55dbbe",
+		"terminal.ansiBrightCyan": "#8a553f",
+		"terminal.ansiGreen": "#9fca56",
+		"terminal.ansiBrightGreen": "#8ec43d",
+		"terminal.ansiYellow": "#e6cd69",
+		"terminal.ansiBrightYellow": "#3b758c",
+		"terminal.ansiMagenta": "#a074c4",
+		"terminal.ansiBrightMagenta": "#eeeeee",
+		"terminal.ansiWhite": "#d6d6d6",
+		"terminal.ansiBrightWhite": "#ffffff",
+		"terminal.ansiRed": "#cd3f45",
+		"terminal.ansiBrightRed": "#db7b55",
+
+
 	},
 	"tokenColors": [
 		{
