@@ -10,12 +10,10 @@
         "Themes"
     ],
     "contributes": {
-        "themes": [
-            {
-                "label": "seti-classic-vscode",
-                "uiTheme": "vs-dark",
-                "path": "./themes/seti-classic-vscode-color-theme.json"
-            }
-        ]
+        "themes": [{
+            "label": "seti-classic-vscode",
+            "uiTheme": "vs-dark",
+            "path": "./themes/seti-classic-vscode-color-theme.json"
+        }]
     }
 }

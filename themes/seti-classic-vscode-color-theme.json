@@ -37,7 +37,7 @@
 		"list.warningForeground": "#e6cd69",
 		"list.errorForeground": "#cd3f45",
 		"list.invalidItemForeground": "#a074c4",
-		
+
 		// Menu
 		"menu.background": "#1D1F21",
 		"menu.selectionBackground": "#356577",
@@ -49,12 +49,12 @@
 		"sideBar.background": "#131415",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"sideBar.border": "#1D1F21",
-		
+
 		// Status Bar
 		"statusBar.background" : "#1D1F21",
         "statusBar.noFolderBackground" : "#1D1F21",
 		"statusBar.debuggingBackground": "#2b0000",
-		
+
 		// Tabs
 		"editorGroup.border": "#111313",
 		"editorGroupHeader.tabsBorder": "#111313",
@@ -85,7 +85,7 @@
 		"editorOverviewRuler.warningForeground": "#e6cd69",
 		"editorOverviewRuler.infoForeground": "#55b5db",
 		"editorOverviewRuler.findMatchForeground": "#d4d7d6",
-		
+
 		// Terminal Colors
 		// From base16-seti-ui.minttyrc
 		"terminal.background": "#151718",
@@ -93,19 +93,19 @@
 		"terminal.ansiBlack": "#151718",
 		"terminal.ansiBrightBlack": "#41535b",
 		"terminal.ansiBlue": "#55b5db",
-		"terminal.ansiBrightBlue": "#43a5d5",
+		"terminal.ansiBrightBlue": "#88e8ff",
 		"terminal.ansiCyan": "#55dbbe",
-		"terminal.ansiBrightCyan": "#8a553f",
+		"terminal.ansiBrightCyan": "#88fff1",
 		"terminal.ansiGreen": "#9fca56",
-		"terminal.ansiBrightGreen": "#8ec43d",
+		"terminal.ansiBrightGreen": "#d2fd89",
 		"terminal.ansiYellow": "#e6cd69",
-		"terminal.ansiBrightYellow": "#3b758c",
+		"terminal.ansiBrightYellow": "#ffff9c",
 		"terminal.ansiMagenta": "#a074c4",
-		"terminal.ansiBrightMagenta": "#eeeeee",
+		"terminal.ansiBrightMagenta": "#d3a7f7",
 		"terminal.ansiWhite": "#d6d6d6",
 		"terminal.ansiBrightWhite": "#ffffff",
 		"terminal.ansiRed": "#cd3f45",
-		"terminal.ansiBrightRed": "#db7b55",
+		"terminal.ansiBrightRed": "#ff7278",
 
 
 	},
@@ -149,7 +149,8 @@
 				"punctuation.definition.tag.end.html",
 				"heading",
 				"punctuation.definition.metadata",
-				"punctuation.definition.string"
+				"punctuation.definition.string",
+				"entity.name.type.namespace.cs"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -179,7 +180,9 @@
 				"entity.other.attribute-name.xml",
 				"markup.list.unnumbered",
 				"markup.list.numbered",
-				"variable.language.special.self"
+				"variable.language.special.self",
+				"variable.parameter.function.language.special.self.python",
+				"meta.preprocessor.cs"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -201,7 +204,13 @@
 				"markup.underline.link",
 				"punctuation.definition.list",
 				"punctuation.separator.array.json.comments",
-				"punctuation.separator.dictionary.key-value.json.comments"
+				"punctuation.separator.dictionary.key-value.json.comments",
+				"storage.modifier",
+				"keyword.other.class",
+				"keyword.other.using",
+				"keyword.other.var.cs",
+				"keyword.other.namespace.cs",
+				"keyword.other.struct.cs"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -234,7 +243,9 @@
 				"punctuation.section.embedded.end.js.jsx",
 				"entity.name.tag.xml",
 				"markup.inline.raw.string",
-				"string.other.link.title"
+				"string.other.link.title",
+				"keyword.type",
+				"entity.name.type.struct.cs"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -253,7 +264,8 @@
 				"punctuation.accessor.js.jsx",
 				"string.quoted.double.xml",
 				"punctuation.definition.string.begin.json.comments",
-				"punctuation.definition.string.end.json.comments"
+				"punctuation.definition.string.end.json.comments",
+				"entity.name.variable.preprocessor.symbol.cs"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -264,7 +276,8 @@
 			"name": "Darkened Font Color",
 			"scope": [
 				"punctuation.definition.entity",
-				"punctuation.terminator.rule"
+				"punctuation.terminator.rule",
+				"punctuation.terminator.statement.cs"
 			],
 			"settings": {
 				"fontStyle": "",

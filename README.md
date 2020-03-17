@@ -1,5 +1,5 @@
 # Info
-This is a port of the Atom theme `seti-classic`, which is also a port of the original `seti-ui`, for VSCode.
+This is a port of the Atom theme `seti-classic`, which is also a fork of the original `seti-ui`, for VSCode.
 
 This does not include the seti-icons because that is already included in VSCode.
 
