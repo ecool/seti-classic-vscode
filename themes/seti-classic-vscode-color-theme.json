@@ -21,40 +21,32 @@
 		"editorWarning.foreground": "#e6cd69",
 		"editorInfo.foreground": "#55b5db",
 		"editorHint.foreground": "#a074c4",
-
 		// Gutter
 		"editorGutter.background": "#0F1313",
 		"editorGutter.modifiedBackground": "#55b5db",
 		"editorGutter.addedBackground": "#9fca56",
 		"editorGutter.deletedBackground": "#cd3f45",
-
 		// Activity Bar
 		"activityBar.background": "#1D1F21",
 		"activityBar.foreground": "#d4d7d6",
 		"activityBarBadge.background": "#55b5db",
-
 		// Lists and Trees
 		"list.warningForeground": "#e6cd69",
 		"list.errorForeground": "#cd3f45",
 		"list.invalidItemForeground": "#a074c4",
-
 		// Menu
 		"menu.background": "#1D1F21",
 		"menu.selectionBackground": "#356577",
-
 		// Titlebar
 		"titleBar.activeBackground": "#1D1F21",
-
 		// SideBar
 		"sideBar.background": "#131415",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"sideBar.border": "#1D1F21",
-
 		// Status Bar
-		"statusBar.background" : "#1D1F21",
-        "statusBar.noFolderBackground" : "#1D1F21",
+		"statusBar.background": "#1D1F21",
+		"statusBar.noFolderBackground": "#1D1F21",
 		"statusBar.debuggingBackground": "#2b0000",
-
 		// Tabs
 		"editorGroup.border": "#111313",
 		"editorGroupHeader.tabsBorder": "#111313",
@@ -66,7 +58,6 @@
 		"tab.unfocusedActiveBorder": "#55b5db",
 		"tab.inactiveBackground": "#1C2123",
 		"tab.inactiveForeground": "#d4d7d6",
-
 		// Git
 		"gitDecoration.addedResourceForeground": "#9fca56",
 		"gitDecoration.modifiedResourceForeground": "#55b5db",
@@ -75,7 +66,6 @@
 		"gitDecoration.ignoredResourceForeground": "#41535b",
 		"gitDecoration.conflictingResourceForeground": "#e6cd69",
 		"gitDecoration.submoduleResourceForeground": "#356577",
-
 		// Overview Ruler
 		"editorOverviewRuler.bracketMatchForeground": "#d4d7d6",
 		"editorOverviewRuler.modifiedForeground": "#55b5db",
@@ -85,7 +75,6 @@
 		"editorOverviewRuler.warningForeground": "#e6cd69",
 		"editorOverviewRuler.infoForeground": "#55b5db",
 		"editorOverviewRuler.findMatchForeground": "#d4d7d6",
-
 		// Terminal Colors
 		// From base16-seti-ui.minttyrc
 		"terminal.background": "#151718",
@@ -106,8 +95,6 @@
 		"terminal.ansiBrightWhite": "#ffffff",
 		"terminal.ansiRed": "#cd3f45",
 		"terminal.ansiBrightRed": "#ff7278",
-
-
 	},
 	"tokenColors": [
 		{
@@ -156,8 +143,8 @@
 				"fontStyle": "",
 				"foreground": "#55b5db"
 			}
-        },
-        {
+		},
+		{
 			"name": "Green",
 			"scope": [
 				"variable.other.object.property",
@@ -188,8 +175,8 @@
 				"fontStyle": "",
 				"foreground": "#9fca56"
 			}
-        },
-        {
+		},
+		{
 			"name": "Yellow",
 			"scope": [
 				"keyword.control",
@@ -216,8 +203,8 @@
 				"fontStyle": "",
 				"foreground": "#e6cd69"
 			}
-        },
-        {
+		},
+		{
 			"name": "Red",
 			"scope": [
 				"constant.character.escape",
@@ -231,8 +218,8 @@
 				"fontStyle": "",
 				"foreground": "#cd3f45"
 			}
-        },
-        {
+		},
+		{
 			"name": "Purple",
 			"scope": [
 				"entity.name.type.class",
@@ -251,8 +238,8 @@
 				"fontStyle": "",
 				"foreground": "#a074c4"
 			}
-        },
-        {
+		},
+		{
 			"name": "Font Color",
 			"scope": [
 				"variable.language",
