@@ -177,6 +177,19 @@
             }
         },
         {
+            "name": "Darkened Green",
+            "scope": [
+                "punctuation.parenthesis.open",
+                "punctuation.parenthesis.close",
+                "punctuation.definition.typeparameters.begin",
+                "punctuation.definition.typeparameters.end"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#9fca56CC"
+            }
+        },
+        {
             "name": "Yellow",
             "scope": [
                 "keyword.control",
@@ -197,7 +210,8 @@
                 "keyword.other.using",
                 "keyword.other.var.cs",
                 "keyword.other.namespace.cs",
-                "keyword.other.struct.cs"
+                "keyword.other.struct.cs",
+                "keyword.other.new"
             ],
             "settings": {
                 "fontStyle": "",
@@ -237,6 +251,17 @@
             "settings": {
                 "fontStyle": "",
                 "foreground": "#a074c4"
+            }
+        },
+        {
+            "name": "Bold Blue",
+            "scope": [
+                "punctuation.definition.interpolation.begin",
+                "punctuation.definition.interpolation.end"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#88e8ff"
             }
         },
         {
@@ -291,5 +316,34 @@
                 "foreground": "#d4d7d6"
             }
         }
-    ]
+    ],
+    "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "namespace": {
+            "foreground": "#55b5db",
+            "fontStyle": "bold"
+        },
+        "comment": "#41535B",
+        "xmlDocCommentComment": "#41535B",
+        "xmlDocCommentAttributeName": "#9fca56",
+        "struct": "#a074c4CC",
+        "class": "#a074c4",
+        "interface": {
+            "foreground": "#a074c4",
+            "fontStyle": "bold italic"
+        },
+        "method": "#55b5db",
+        "string": "#55b5db",
+        "number": "#cd3f45",
+        "operator": "#e6cd69",
+        "operatorOverloaded": {
+            "foreground": "#e6cd69",
+            "fontStyle": "bold"
+        },
+        "controlKeyword": "#e6cd69",
+        // "plainKeyword": "#e6cd69",
+        "local": "#d4d7d6",
+        "field": "#d4d7d6",
+        "parameter": "#d4d7d6"
+    }
 }
