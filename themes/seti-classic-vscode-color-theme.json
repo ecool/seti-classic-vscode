@@ -213,7 +213,8 @@
                 "keyword.other.var.cs",
                 "keyword.other.namespace.cs",
                 "keyword.other.struct.cs",
-                "keyword.other.new"
+                "keyword.other.new",
+                "punctuation.separator.pointer-access"
             ],
             "settings": {
                 "fontStyle": "",
@@ -338,14 +339,20 @@
         "method": "#55b5db",
         "string": "#55b5db",
         "number": "#cd3f45",
+        "macro": "#cd3f45",
         "operator": "#e6cd69",
         "operatorOverloaded": {
+            "foreground": "#e6cd69",
+            "fontStyle": "bold"
+        },
+        "memberOperatorOverload": {
             "foreground": "#e6cd69",
             "fontStyle": "bold"
         },
         "controlKeyword": "#e6cd69",
         // "plainKeyword": "#e6cd69",
         "local": "#d4d7d6",
+        "variable": "#d4d7d6",
         "field": "#d4d7d6",
         "parameter": "#d4d7d6"
     }
