@@ -293,7 +293,8 @@
             "scope": [
                 "punctuation.definition.entity",
                 "punctuation.terminator.rule",
-                "punctuation.terminator.statement.cs"
+                "punctuation.terminator.statement.cs",
+                "punctuation.terminator"
             ],
             "settings": {
                 "fontStyle": "",
