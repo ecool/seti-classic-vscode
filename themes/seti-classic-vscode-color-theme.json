@@ -22,7 +22,7 @@
         "editorInfo.foreground": "#55b5db",
         "editorHint.foreground": "#a074c4",
         // Gutter
-        "editorGutter.background": "#0F1313",
+        "editorGutter.background": "#151718",
         "editorGutter.modifiedBackground": "#55b5db",
         "editorGutter.addedBackground": "#9fca56",
         "editorGutter.deletedBackground": "#cd3f45",
@@ -37,7 +37,7 @@
         // Menu
         "menu.background": "#1D1F21",
         "menu.selectionBackground": "#356577",
-        // Titlebar
+        // Title Bar
         "titleBar.activeBackground": "#1D1F21",
         // SideBar
         "sideBar.background": "#131415",
@@ -169,7 +169,9 @@
                 "markup.list.numbered",
                 "variable.language.special.self",
                 "variable.parameter.function.language.special.self.python",
-                "meta.preprocessor.cs"
+                "meta.preprocessor.cs",
+                "storage.type.class.gtkdoc",
+                "storage.type.class.doxygen"
             ],
             "settings": {
                 "fontStyle": "",
@@ -277,7 +279,8 @@
                 "string.quoted.double.xml",
                 "punctuation.definition.string.begin.json.comments",
                 "punctuation.definition.string.end.json.comments",
-                "entity.name.variable.preprocessor.symbol.cs"
+                "entity.name.variable.preprocessor.symbol.cs",
+                "meta.block.c"
             ],
             "settings": {
                 "fontStyle": "",
