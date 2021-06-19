@@ -2,6 +2,7 @@
     "name": "seti-classic-vscode",
     "displayName": "seti-classic-vscode",
     "description": "VSCode port of Atom seti-classic theme",
+    "repository": "https://github.com/ecool/seti-classic-vscode",
     "version": "1.0.0",
     "engines": {
         "vscode": "^1.35.0"
@@ -10,10 +11,12 @@
         "Themes"
     ],
     "contributes": {
-        "themes": [{
-            "label": "seti-classic-vscode",
-            "uiTheme": "vs-dark",
-            "path": "./themes/seti-classic-vscode-color-theme.json"
-        }]
+        "themes": [
+            {
+                "label": "seti-classic-vscode",
+                "uiTheme": "vs-dark",
+                "path": "./themes/seti-classic-vscode-color-theme.json"
+            }
+        ]
     }
 }
