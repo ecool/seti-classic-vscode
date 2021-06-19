@@ -134,6 +134,7 @@
                 "string.quoted.double",
                 "string.quoted.single",
                 "support.function",
+                "support.type.property-name.json",
                 "variable.parameter.function-call"
             ],
             "settings": {
