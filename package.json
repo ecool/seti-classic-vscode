@@ -4,6 +4,7 @@
     "description": "VSCode port of Atom seti-classic theme",
     "publisher": "ecool",
     "repository": "https://github.com/ecool/seti-classic-vscode",
+    "icon": "images/icon.png",
     "version": "1.0.0",
     "engines": {
         "vscode": "^1.35.0"
