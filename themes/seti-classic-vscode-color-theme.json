@@ -101,10 +101,10 @@
             "name": "Comment",
             "scope": [
                 "comment",
-                "punctuation.definition.comment",
-                "markup.quote",
                 "markup.heading.setext",
-                "meta.separator"
+                "markup.quote",
+                "meta.separator",
+                "punctuation.definition.comment"
             ],
             "settings": {
                 "fontStyle": "",
@@ -115,26 +115,26 @@
             "name": "Blue",
             "scope": [
                 "entity.name.function",
-                "support.function",
+                "entity.name.tag.css",
+                "entity.name.tag.localname",
+                "entity.name.tag.wildcard.css",
+                "entity.name.type.namespace",
+                "heading",
+                "meta.brace.square",
                 "meta.function-call",
                 "punctuation.definition.array.begin",
                 "punctuation.definition.array.end",
-                "string.quoted.docstring.single",
-                "string.quoted.docstring.multi",
-                "string.quoted.single",
-                "string.quoted.double",
-                "variable.parameter.function-call",
-                "meta.brace.square",
-                "punctuation.definition.tag.end",
-                "entity.name.tag.css",
-                "entity.name.tag.wildcard.css",
-                "entity.name.tag.localname",
-                "punctuation.definition.tag",
-                "punctuation.definition.tag.end",
-                "heading",
                 "punctuation.definition.metadata",
                 "punctuation.definition.string",
-                "entity.name.type.namespace"
+                "punctuation.definition.tag.end",
+                "punctuation.definition.tag.end",
+                "punctuation.definition.tag",
+                "string.quoted.docstring.multi",
+                "string.quoted.docstring.single",
+                "string.quoted.double",
+                "string.quoted.single",
+                "support.function",
+                "variable.parameter.function-call"
             ],
             "settings": {
                 "fontStyle": "",
@@ -144,29 +144,29 @@
         {
             "name": "Green",
             "scope": [
-                "variable.other.object.property",
                 "entity.other.attribute-name.class",
                 "entity.other.attribute-name.id",
+                "entity.other.attribute-name.localname",
                 "entity.other.attribute-name.pseudo-class",
+                "entity.other.attribute-name",
+                "entity.other.attribute-name",
                 "entity.other.inherited-class",
                 "keyword.control.at-rule.import",
                 "keyword.control.at-rule.media",
                 "keyword.operator.gradients",
                 "keyword.operator.logical.and.media",
-                "entity.other.attribute-name",
+                "keyword.operator.new",
                 "keyword.other.important",
                 "keyword.other.unit.px",
-                "keyword.operator.new",
-                "variable.other.property",
-                "entity.other.attribute-name",
-                "entity.other.attribute-name.localname",
-                "markup.list.unnumbered",
                 "markup.list.numbered",
-                "variable.language.special.self",
-                "variable.parameter.function.language.special.self",
+                "markup.list.unnumbered",
                 "meta.preprocessor",
+                "storage.type.class.doxygen",
                 "storage.type.class.gtkdoc",
-                "storage.type.class.doxygen"
+                "variable.language.special.self",
+                "variable.other.object.property",
+                "variable.other.property",
+                "variable.parameter.function.language.special.self"
             ],
             "settings": {
                 "fontStyle": "",
@@ -176,12 +176,12 @@
         {
             "name": "Darkened Green",
             "scope": [
-                "punctuation.parenthesis.open",
-                "punctuation.parenthesis.close",
+                "punctuation.definition.tag.begin",
+                "punctuation.definition.tag.end",
                 "punctuation.definition.typeparameters.begin",
                 "punctuation.definition.typeparameters.end",
-                "punctuation.definition.tag.begin",
-                "punctuation.definition.tag.end"
+                "punctuation.parenthesis.close",
+                "punctuation.parenthesis.open"
             ],
             "settings": {
                 "fontStyle": "",
@@ -191,27 +191,27 @@
         {
             "name": "Yellow",
             "scope": [
+                "keyword.codetag.notation",
                 "keyword.control",
                 "keyword.operator",
-                "storage.type.class",
-                "storage.type.function",
-                "storage.type",
-                "punctuation.separator.key-value",
-                "keyword.codetag.notation",
-                "meta.tag.xml",
-                "meta.tag.preprocessor.xml",
+                "keyword.other.class",
+                "keyword.other.namespace",
+                "keyword.other.new",
+                "keyword.other.struct",
+                "keyword.other.using",
+                "keyword.other.var",
                 "markup.underline.link",
+                "meta.tag.preprocessor.xml",
+                "meta.tag.xml",
                 "punctuation.definition.list",
                 "punctuation.separator.array.comments",
                 "punctuation.separator.dictionary.key-value.comments",
+                "punctuation.separator.key-value",
+                "punctuation.separator.pointer-access",
                 "storage.modifier",
-                "keyword.other.class",
-                "keyword.other.using",
-                "keyword.other.var",
-                "keyword.other.namespace",
-                "keyword.other.struct",
-                "keyword.other.new",
-                "punctuation.separator.pointer-access"
+                "storage.type.class",
+                "storage.type.function",
+                "storage.type"
             ],
             "settings": {
                 "fontStyle": "",
@@ -236,17 +236,17 @@
         {
             "name": "Purple",
             "scope": [
+                "entity.name.tag",
                 "entity.name.type.class",
-                "support.type.property-name",
-                "support.type.property-name.media",
-                "variable.other.object",
+                "entity.name.type.struct",
+                "keyword.type",
+                "markup.inline.raw.string",
                 "punctuation.section.embedded.begin",
                 "punctuation.section.embedded.end",
-                "entity.name.tag",
-                "markup.inline.raw.string",
                 "string.other.link.title",
-                "keyword.type",
-                "entity.name.type.struct"
+                "support.type.property-name.media",
+                "support.type.property-name",
+                "variable.other.object"
             ],
             "settings": {
                 "fontStyle": "",
@@ -267,16 +267,16 @@
         {
             "name": "Font Color",
             "scope": [
-                "variable.language",
+                "entity.name.variable.preprocessor.symbol",
+                "meta.block",
                 "meta.function-call.arguments",
+                "punctuation.accessor",
                 "punctuation.definition.arguments.begin",
                 "punctuation.definition.arguments.end",
-                "string.quoted.double.json",
-                "punctuation.accessor",
                 "punctuation.definition.string.begin.json",
                 "punctuation.definition.string.end.json",
-                "entity.name.variable.preprocessor.symbol",
-                "meta.block"
+                "string.quoted.double.json",
+                "variable.language"
             ],
             "settings": {
                 "fontStyle": "",
