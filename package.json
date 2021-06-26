@@ -5,7 +5,7 @@
     "publisher": "ecool",
     "repository": "https://github.com/ecool/seti-classic-vscode",
     "icon": "images/icon.png",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "engines": {
         "vscode": "^1.35.0"
     },
@@ -20,5 +20,10 @@
                 "path": "./themes/seti-classic-vscode-color-theme.json"
             }
         ]
+    },
+    "__metadata": {
+        "id": "1984cbe6-32e9-4b1a-a4b3-e1da0bad7f4f",
+        "publisherDisplayName": "ecool",
+        "publisherId": "e001a55a-aee1-42cd-8328-f3e54b2b159b"
     }
 }
