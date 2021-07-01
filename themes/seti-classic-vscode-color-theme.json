@@ -199,6 +199,7 @@
                 "keyword.other.namespace",
                 "keyword.other.new",
                 "keyword.other.struct",
+                "keyword.other.typeof",
                 "keyword.other.using",
                 "keyword.other.var",
                 "markup.underline.link",
