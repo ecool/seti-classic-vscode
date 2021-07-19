@@ -196,6 +196,7 @@
                 "keyword.control",
                 "keyword.operator",
                 "keyword.other.class",
+                "keyword.other.event",
                 "keyword.other.namespace",
                 "keyword.other.new",
                 "keyword.other.struct",
@@ -329,6 +330,7 @@
         "xmlDocCommentComment": "#41535B",
         "xmlDocCommentName": "#9fca56",
         "xmlDocCommentAttributeName": "#9fca56",
+        "event": "#9fca56CC",
         "struct": "#a074c4CC",
         "class": "#a074c4",
         "interface": {
@@ -352,6 +354,10 @@
         // "plainKeyword": "#e6cd69",
         "local": "#d4d7d6",
         "variable": "#d4d7d6",
+        "variable.static": {
+            "foreground": "#d4d7d6",
+            "fontStyle": "bold"
+        },
         "field": "#d4d7d6",
         "parameter": "#d4d7d6"
     }
