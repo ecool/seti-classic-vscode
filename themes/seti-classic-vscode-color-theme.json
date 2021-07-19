@@ -203,6 +203,7 @@
                 "keyword.other.typeof",
                 "keyword.other.using",
                 "keyword.other.var",
+                "keyword.other.where",
                 "markup.underline.link",
                 "meta.tag.preprocessor.xml",
                 "meta.tag.xml",
@@ -332,6 +333,10 @@
         "xmlDocCommentAttributeName": "#9fca56",
         "event": "#9fca56CC",
         "struct": "#a074c4CC",
+        "typeParameter": {
+            "foreground": "#a074c4CC",
+            "fontStyle": "bold"
+        },
         "class": "#a074c4",
         "interface": {
             "foreground": "#a074c4",
