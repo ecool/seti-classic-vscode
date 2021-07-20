@@ -334,7 +334,10 @@
         "xmlDocCommentComment": "#41535B",
         "xmlDocCommentName": "#9fca56",
         "xmlDocCommentAttributeName": "#9fca56",
-        "enum": "#9fca56",
+        "enum": {
+            "foreground": "#9fca56",
+            "fontStyle": "bold"
+        },
         "event": "#9fca56CC",
         "struct": "#a074c4CC",
         "typeParameter": {
