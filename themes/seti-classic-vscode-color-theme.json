@@ -196,6 +196,7 @@
                 "keyword.control",
                 "keyword.operator",
                 "keyword.other.class",
+                "keyword.other.enum",
                 "keyword.other.event",
                 "keyword.other.namespace",
                 "keyword.other.new",
@@ -331,6 +332,7 @@
         "xmlDocCommentComment": "#41535B",
         "xmlDocCommentName": "#9fca56",
         "xmlDocCommentAttributeName": "#9fca56",
+        "enum": "#9fca56",
         "event": "#9fca56CC",
         "struct": "#a074c4CC",
         "typeParameter": {
@@ -346,6 +348,10 @@
         "string": "#55b5db",
         "number": "#cd3f45",
         "macro": "#cd3f45",
+        "enumMember": {
+            "foreground": "#cd3f45CC",
+            // "fontStyle": ""
+        },
         "operator": "#e6cd69",
         "operatorOverloaded": {
             "foreground": "#e6cd69",
