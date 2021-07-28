@@ -5,7 +5,7 @@
     "publisher": "ecool",
     "repository": "https://github.com/ecool/seti-classic-vscode",
     "icon": "images/icon.png",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "engines": {
         "vscode": "^1.35.0"
     },

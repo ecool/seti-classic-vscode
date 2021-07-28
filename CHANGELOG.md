@@ -1,3 +1,7 @@
+## v1.0.5
+* add enum and enumMembers to semantic highlighting
+* add get, set, interface, delegate keywords to yellow scope
+* add excludedCode to semantic highlighting
 ## v1.0.4
 * add generic typeParameter to semantic highlighting
 * add where keyword to yellow scope
