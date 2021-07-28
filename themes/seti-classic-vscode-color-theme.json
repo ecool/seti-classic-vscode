@@ -333,6 +333,7 @@
             "fontStyle": "bold"
         },
         "comment": "#41535B",
+        "excludedCode": "#41535B",
         "xmlDocCommentComment": "#41535B",
         "xmlDocCommentName": "#9fca56",
         "xmlDocCommentAttributeName": "#9fca56CC",
