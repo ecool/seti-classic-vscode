@@ -196,9 +196,11 @@
                 "keyword.control",
                 "keyword.operator",
                 "keyword.other.class",
+                "keyword.other.delegate",
                 "keyword.other.enum",
                 "keyword.other.event",
                 "keyword.other.get",
+                "keyword.other.interface",
                 "keyword.other.namespace",
                 "keyword.other.new",
                 "keyword.other.set",
@@ -333,7 +335,7 @@
         "comment": "#41535B",
         "xmlDocCommentComment": "#41535B",
         "xmlDocCommentName": "#9fca56",
-        "xmlDocCommentAttributeName": "#9fca56",
+        "xmlDocCommentAttributeName": "#9fca56CC",
         "enum": {
             "foreground": "#9fca56",
             "fontStyle": "bold"
@@ -350,6 +352,7 @@
             "fontStyle": "bold italic"
         },
         "method": "#55b5db",
+        "delegate": "#55b5dbCC",
         "string": "#55b5db",
         "number": "#cd3f45",
         "macro": "#cd3f45",
