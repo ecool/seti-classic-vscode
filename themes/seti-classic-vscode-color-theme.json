@@ -16,6 +16,7 @@
         "editorLineNumber.foreground": "#41535b",
         "editorLineNumber.activeForeground": "#55b5db",
         "editor.wordHighlightBackground": "#356577",
+        "editor.foldBackground": "#41535b25",
         "editorRuler.foreground": "#1d1f21",
         "editorError.foreground": "#cd3f45",
         "editorWarning.foreground": "#e6cd69",
