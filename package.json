@@ -1,29 +1,29 @@
 {
-    "name": "seti-classic-vscode",
-    "displayName": "seti-classic-vscode",
-    "description": "VSCode port of Atom seti-classic theme",
-    "publisher": "ecool",
-    "repository": "https://github.com/ecool/seti-classic-vscode",
-    "icon": "images/icon.png",
-    "version": "1.0.5",
-    "engines": {
-        "vscode": "^1.35.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "seti-classic-vscode",
-                "uiTheme": "vs-dark",
-                "path": "./themes/seti-classic-vscode-color-theme.json"
-            }
-        ]
-    },
-    "__metadata": {
-        "id": "1984cbe6-32e9-4b1a-a4b3-e1da0bad7f4f",
-        "publisherDisplayName": "ecool",
-        "publisherId": "e001a55a-aee1-42cd-8328-f3e54b2b159b"
-    }
+  "name": "seti-classic-vscode",
+  "displayName": "seti-classic-vscode",
+  "description": "VSCode port of Atom seti-classic theme",
+  "publisher": "ecool",
+  "repository": "https://github.com/ecool/seti-classic-vscode",
+  "icon": "images/icon.png",
+  "version": "1.0.6",
+  "engines": {
+    "vscode": "^1.35.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "seti-classic-vscode",
+        "uiTheme": "vs-dark",
+        "path": "./themes/seti-classic-vscode-color-theme.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "id": "1984cbe6-32e9-4b1a-a4b3-e1da0bad7f4f",
+    "publisherDisplayName": "ecool",
+    "publisherId": "e001a55a-aee1-42cd-8328-f3e54b2b159b"
+  }
 }
