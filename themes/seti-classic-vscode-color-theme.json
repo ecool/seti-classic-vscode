@@ -195,6 +195,7 @@
             "scope": [
                 "keyword.codetag.notation",
                 "keyword.control",
+                "keyword.fsharp",
                 "keyword.operator",
                 "keyword.other.class",
                 "keyword.other.delegate",
@@ -210,6 +211,7 @@
                 "keyword.other.using",
                 "keyword.other.var",
                 "keyword.other.where",
+                "keyword.symbol.fsharp",
                 "markup.underline.link",
                 "meta.tag.preprocessor.xml",
                 "meta.tag.xml",
@@ -234,6 +236,7 @@
                 "constant.character.escape",
                 "constant.language",
                 "constant.numeric",
+                "constant.other.fsharp",
                 "support.constant.font-name",
                 "support.constant.media",
                 "support.constant.property-values"
