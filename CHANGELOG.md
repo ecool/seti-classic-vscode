@@ -1,3 +1,7 @@
+## v1.0.6
+* add F# specific keywords to yellow scope
+* add F# specific constants to red scope
+* update readme
 ## v1.0.5
 * add enum and enumMembers to semantic highlighting
 * add get, set, interface, delegate keywords to yellow scope
