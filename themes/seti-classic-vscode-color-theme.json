@@ -197,6 +197,7 @@
         "keyword.control",
         "keyword.fsharp",
         "keyword.operator",
+        "keyword.other.async",
         "keyword.other.class",
         "keyword.other.delegate",
         "keyword.other.enum",
@@ -207,11 +208,13 @@
         "keyword.other.new",
         "keyword.other.set",
         "keyword.other.struct",
+        "keyword.other.typedef",
         "keyword.other.typeof",
         "keyword.other.using",
         "keyword.other.var",
         "keyword.other.where",
         "keyword.symbol.fsharp",
+        "keyword.symbol.arrow.fsharp",
         "markup.underline.link",
         "meta.tag.preprocessor.xml",
         "meta.tag.xml",
@@ -352,6 +355,7 @@
       "fontStyle": "bold"
     },
     "class": "#a074c4",
+    "type": "#a074c4",
     "interface": {
       "foreground": "#a074c4",
       "fontStyle": "bold italic"
