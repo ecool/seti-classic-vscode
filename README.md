@@ -5,28 +5,18 @@ This does not include the seti-icons because that is already included in VSCode.
 
 ![Screenshot](images/screenshot.png)
 
-# Known Issues
-- Currently there seems to be some weird interaction between Semantic Highlighting and the VSCode File Changes Side-by-Side view. [VSCode Issue](https://github.com/microsoft/vscode/issues/126722)
-
 # Terminal
 - `terminus` prezto prompt from my fork of [prezto](https://github.com/ecool/prezto)
 
 # Extensions Used
-- [bracket-pair-colorizer-2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
 - [snippets-viewer](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.snippets-viewer)
 
-
-## Extension Settings
+# Settings
 ```json
-"bracket-pair-colorizer-2.colors": [
-    "#e6cd69CC",
-    "#a074c4CC",
-    "#9fca56CC"
-],
-"bracket-pair-colorizer-2.showBracketsInGutter": true,
-"bracket-pair-colorizer-2.showBracketsInRuler": false,
-"bracket-pair-colorizer-2.showHorizontalScopeLine": false,
-"bracket-pair-colorizer-2.showVerticalScopeLine": false,
+"editor.bracketPairColorization.enabled": true,
+"editor.guides.bracketPairs": true,
+"editor.guides.highlightActiveBracketPair": false,
+"editor.guides.bracketPairsHorizontal": false,
 ```
 
 # Font
@@ -52,6 +42,9 @@ This does not include the seti-icons because that is already included in VSCode.
 - JSON
 - Python
 - ZSH
+
+# Known Issues
+- Currently there seems to be some weird interaction between Semantic Highlighting and the VSCode File Changes Side-by-Side view. [VSCode Issue](https://github.com/microsoft/vscode/issues/126722)
 
 ## See:
 - [seti-classic](https://github.com/vermotr/seti-classic)
