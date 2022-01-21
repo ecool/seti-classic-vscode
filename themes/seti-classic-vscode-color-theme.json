@@ -96,6 +96,10 @@
     "terminal.ansiBrightWhite": "#ffffff",
     "terminal.ansiRed": "#cd3f45",
     "terminal.ansiBrightRed": "#ff7278",
+    // Native Bracket Colors
+    "editorBracketHighlight.foreground1": "#e6cd69CC",
+    "editorBracketHighlight.foreground2": "#a074c4CC",
+    "editorBracketHighlight.foreground3": "#9fca56CC",
   },
   "tokenColors": [
     {
