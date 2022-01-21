@@ -274,6 +274,7 @@
     {
       "name": "Bold Blue",
       "scope": [
+        "constant.character.format.placeholder.other.python",
         "punctuation.definition.interpolation.begin",
         "punctuation.definition.interpolation.end"
       ],
