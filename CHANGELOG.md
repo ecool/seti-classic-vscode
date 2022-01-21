@@ -1,3 +1,9 @@
+## v1.0.7
+* add native bracket colors 1-3
+* add python interpolation bracket to bold blue scope
+* add static and attribute-specifier to yellow scope
+* add keywords async, typedef, arrow and semantic type
+* update readme
 ## v1.0.6
 * add F# specific keywords to yellow scope
 * add F# specific constants to red scope
