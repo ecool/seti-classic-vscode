@@ -264,6 +264,7 @@
         "entity.name.type.struct",
         "keyword.type",
         "markup.inline.raw.string",
+        "punctuation.definition.wiki-link",
         "punctuation.section.embedded.begin",
         "punctuation.section.embedded.end",
         "string.other.link.title",
