@@ -226,6 +226,7 @@
         "meta.tag.preprocessor.xml",
         "meta.tag.xml",
         "punctuation.definition.list",
+        "punctuation.separator.annotation.result.python",
         "punctuation.separator.array.comments",
         "punctuation.separator.dictionary.key-value.comments",
         "punctuation.separator.key-value",
