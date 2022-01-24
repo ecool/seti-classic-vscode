@@ -134,6 +134,7 @@
         "punctuation.definition.tag.end",
         "punctuation.definition.tag.end",
         "punctuation.definition.tag",
+        "string.other.link.title.markdown.foam",
         "string.quoted.docstring.multi",
         "string.quoted.docstring.single",
         "string.quoted.double",
