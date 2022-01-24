@@ -397,6 +397,10 @@
       "fontStyle": "bold"
     },
     "field": "#d4d7d6",
-    "parameter": "#d4d7d6"
+    "parameter": "#d4d7d6",
+    "selfParameter": {
+      "foreground": "#9fca56",
+      "fontStyle": "italic"
+    }
   }
 }
