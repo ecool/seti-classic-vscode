@@ -3,13 +3,13 @@
   "type": "dark",
   "colors": {
     /*
-        Main Colors:
-        Blue: 	#55b5db
-        Green: 	#9fca56
-        Yellow: #e6cd69
-        Red: 	  #cd3f45
-        Purple: #a074c4
-        */
+      Main Colors:
+      Blue: 	#55b5db
+      Green: 	#9fca56
+      Yellow: #e6cd69
+      Red: 	  #cd3f45
+      Purple: #a074c4
+    */
     // Editor
     "editor.background": "#191B1C",
     "editor.foreground": "#d4d7d6",
