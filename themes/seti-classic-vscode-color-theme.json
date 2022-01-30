@@ -93,7 +93,7 @@
     "terminal.ansiBrightYellow": "#ffff9c",
     "terminal.ansiMagenta": "#a074c4",
     "terminal.ansiBrightMagenta": "#d3a7f7",
-    "terminal.ansiWhite": "#d6d6d6",
+    "terminal.ansiWhite": "#d4d7d6",
     "terminal.ansiBrightWhite": "#ffffff",
     "terminal.ansiRed": "#cd3f45",
     "terminal.ansiBrightRed": "#ff7278",
@@ -356,7 +356,7 @@
     "xmlDocCommentName": "#9fca56",
     "xmlDocCommentAttributeName": "#9fca56CC",
     "enum": {
-      "foreground": "#9fca56",
+      "foreground": "#d4d7d6",
       "fontStyle": "bold"
     },
     "event": "#9fca56CC",
